@@ -1,0 +1,34 @@
+{
+  "name": "omg-forms-activecampaign",
+  "description": "An OMG Forms add-on, which creates an integration with Activecampaign.",
+  "version": "0.1.0",
+  "type": "library",
+  "keywords": [],
+  "homepage": "https://github.com/mrbobbybryant/omg-forms-activecampaign",
+  "license": "GPL-2.0+",
+  "author": {
+    "name": "Bobby Bryant",
+    "email": "bobby@developwithwp.com",
+    "homepage": "Bobby Bryant",
+    "role": "Developer"
+  },
+  "minimum-stability": "dev",
+  "repositories" : [
+    {
+      "type" : "composer",
+      "url"  : "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/mrbobbybryant/omg-forms"
+    }
+  ],
+  "require": {
+    "omg-forms": "master",
+    "activecampaign/api-php": "^2.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "files": [ "omg-forms-basic.php" ]
+  }
+}
