@@ -29,6 +29,6 @@
   },
   "require-dev": {},
   "autoload": {
-    "files": [ "omg-forms-basic.php" ]
+    "files": [ "omg-forms-activecampaign.php" ]
   }
 }
