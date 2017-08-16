@@ -11,3 +11,7 @@ if ( !defined( 'OMG_FORMS_ACTIVECAMPAIGN_FILE' ) ) {
 if ( file_exists( OMG_FORMS_ACTIVECAMPAIGN_DIR . '/vendor' ) ) {
 	require __DIR__ . '/vendor/autoload.php';
 }
+
+require_once OMG_FORMS_ACTIVECAMPAIGN_DIR . '/includes/settings.php';
+
+\OMGForms\ActiveCampaign\Settings\setup();
