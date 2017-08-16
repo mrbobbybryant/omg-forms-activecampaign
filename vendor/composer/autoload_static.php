@@ -4,11 +4,11 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit64b8ca80d14e9dc2927efe38fc864132
+class ComposerStaticInitc401c7fe891fd2bf171193dc9f5b3ff8
 {
     public static $files = array (
         'cd575c704bc00f8c79fca9bc7fcc7bdc' => __DIR__ . '/..' . '/omg-forms/omg-forms.php',
-        '6672aa223b2413f26793833d2a93851f' => __DIR__ . '/../..' . '/omg-forms-basic.php',
+        'adb45d73a5601bc6dec527d655e9156e' => __DIR__ . '/../..' . '/omg-forms-activecampaign.php',
     );
 
     public static $classMap = array (
@@ -39,7 +39,7 @@ class ComposerStaticInit64b8ca80d14e9dc2927efe38fc864132
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit64b8ca80d14e9dc2927efe38fc864132::$classMap;
+            $loader->classMap = ComposerStaticInitc401c7fe891fd2bf171193dc9f5b3ff8::$classMap;
 
         }, null, ClassLoader::class);
     }

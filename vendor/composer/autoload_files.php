@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'cd575c704bc00f8c79fca9bc7fcc7bdc' => $vendorDir . '/omg-forms/omg-forms.php',
-    '6672aa223b2413f26793833d2a93851f' => $baseDir . '/omg-forms-basic.php',
+    'adb45d73a5601bc6dec527d655e9156e' => $baseDir . '/omg-forms-activecampaign.php',
 );
