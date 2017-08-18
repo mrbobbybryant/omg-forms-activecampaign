@@ -13,5 +13,7 @@ if ( file_exists( OMG_FORMS_ACTIVECAMPAIGN_DIR . '/vendor' ) ) {
 }
 
 require_once OMG_FORMS_ACTIVECAMPAIGN_DIR . '/includes/settings.php';
+require_once OMG_FORMS_ACTIVECAMPAIGN_DIR . '/includes/api.php';
+require_once OMG_FORMS_ACTIVECAMPAIGN_DIR . '/includes/helpers.php';
 
 \OMGForms\ActiveCampaign\Settings\setup();
